@@ -1,0 +1,45 @@
+/* Products.css */
+
+.product-container {
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product-container .row {
+    text-align: center;
+  }
+  
+  .product-container .products-texts {
+    color: #fff; /* Set the text color to white or a suitable color for better visibility */
+  }
+  
+  .product-container .products-texts h1 {
+    max-width: 600px; 
+    font-size: 36px; 
+    position: relative;
+    top: 0; 
+  }
+  
+  .product-container .products-texts button {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .product-container .products-texts button:hover {
+    background-color: #217dbb;
+  }
+  

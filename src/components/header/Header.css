@@ -1,0 +1,63 @@
+
+.container-header .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-header .row .nav-items ul{
+    display: inline-flex;
+    list-style: none;
+}
+.logo h3{
+    color: red;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.logo h3 span{
+    color: black;
+    
+}
+li{
+margin: 0 20px;  
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.login-btns button{
+    margin: 7px;
+}
+.login-btns button:nth-child(1){
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.login-btns button:nth-child(2){
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+button:hover:nth-child(1){
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;    
+}
