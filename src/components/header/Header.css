@@ -1,38 +1,54 @@
-
-.container-header .row{
-    display: flex;
+.container-header .row {
+    display: inline-flex;
+    padding: 22px 10px 12px 25px;
     justify-content: space-between;
     align-items: center;
+    gap: 160px;
+   
 }
-.container-header .row .nav-items ul{
+
+.container-header{
+    background-color: rgba(245, 247, 250, 1);
+}
+
+.container-header .row #nav-items ul {
     display: inline-flex;
     list-style: none;
 }
-.logo h3{
+
+.container-header .hamburger-icon{
+    display: none;
+}
+.logo h3 {
     color: red;
     font-weight: 600;
     font-family: monospace;
     font-size: 24px;
     letter-spacing: 1px;
 }
-.logo h3 span{
+
+.logo h3 span {
     color: black;
-    
+
 }
-li{
-margin: 0 20px;  
+
+li {
+    margin: 0 20px;
 }
-li a{
+
+li a {
     text-decoration: none;
     color: black;
     font-size: large;
     letter-spacing: 1px;
     font-weight: 500;
 }
-.login-btns button{
+
+.login-btns button {
     margin: 7px;
 }
-.login-btns button:nth-child(1){
+
+.login-btns button:nth-child(1) {
     background-color: transparent;
     border: none;
     color: red;
@@ -41,7 +57,8 @@ li a{
     cursor: pointer;
     padding: 10px 20px;
 }
-.login-btns button:nth-child(2){
+
+.login-btns button:nth-child(2) {
     background-color: red;
     border: none;
     border-radius: 5px;
@@ -51,7 +68,8 @@ li a{
     font-weight: 600;
     font-size: 15px;
 }
-button:hover:nth-child(1){
+
+button:hover:nth-child(1) {
     background-color: red;
     border: none;
     border-radius: 5px;
@@ -59,5 +77,63 @@ button:hover:nth-child(1){
     color: white;
     cursor: pointer;
     font-weight: 600;
-    font-size: 15px;    
+    font-size: 15px;
 }
+
+
+
+/* Responsive.css */
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 480px) {
+    .nav-items {
+      display: none;
+    }
+  
+    .hamburger-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .active .nav-items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 60px; /* Adjust the top position as needed */
+      left: 0;
+      width: 100%;
+      background-color: #333; /* Add background color for better visibility */
+    }
+  
+    .active .nav-items ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .active .nav-items ul li {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media only screen and (min-width: 769px) {
+    .hamburger-icon {
+      display: none;
+    }
+  
+    .nav-items {
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav-items ul {
+      display: flex;
+      list-style: none;
+    }
+  
+    .nav-items ul li {
+      margin-right: 20px;
+    }
+  }
+  

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import '../../Responsive.css'
+import img from '../../imges/Illustration.png'
 
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
                 <button>Register</button>
             </div>
             <div className="img-content">
-                <img src="https://img.freepik.com/free-vector/tiny-graphic-designer-drawing-with-big-pen-computer-screen-creators-work-creative-woman-working-laptop-flat-vector-illustration-digital-design-concept-banner-landing-web-page_74855-25342.jpg" alt="home-img" />
+                <img src={img} alt="home-img" />
             </div>
         </div>
     </div>

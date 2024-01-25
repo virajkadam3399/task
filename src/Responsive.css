@@ -1,74 +1,98 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
+  .container-header .logo {
+    display: flex;
+    align-items: center;
+    justify-content:center !important;
+    flex-wrap: nowrap;
+  }
   .container-header .row .nav-items,
   .login-btns {
-    display: none;
+    display: block;
+  }
+  .container-header .hamburger-icon {
+    display: block !important;
+    margin-left: 130px;
+    align-items: center;
   }
 
+  .home-container .row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: -70px;
+    
+  }
+
+  .services-container .section{
+    flex-direction: column;
+    
+  }
   .home-container .row .text-content .h1 {
     font-size: 45px;
   }
-  .services-container .section .row-first,
-  .row-second {
-    display: flex;
-    flex-direction: column;
+
+  .Feature-container .cards{
+     flex-wrap: wrap;
+      gap: 80px;
+      flex-direction: column;
   }
   .Feature-container .cards .card {
-    margin-top: 100px;
-    width: 300px;
+    margin-bottom: 160px;
   }
-  .img-content img,
-  .img-services img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    margin-top: 60px; /* or object-fit: contain; */
+  .Feature-container .row .heading-texts h1{
+  font-size: 22px;
   }
-  .text-context {
-    text-align: left;
-  }
-   .Feature-container .cards .card {
-      width:300px;
-      margin-top: 40px
+  .Feature-container .row .heading-texts p{
+    font-size: 14px;
+    width: 70%;
     }
+  .services-container .text-context {
+    max-width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    flex-shrink: 1; 
+    gap: 8px;
+  }
   
-    .Feature-container .cards {
-      flex-direction: column;
-      width: 90%;
-      object-fit: contain;
-    }
-}
+  .services-container .text-context p {
+    white-space: normal; 
+  } 
 
+
+  footer .img-footer{
+       width: 100%;
+      
+  }
+  footer .img-footer .img-text h1{
+text-align: center;
+flex-shrink: 1 ;
+font-size: 34px;
+margin-left: 130px;
+display: none;
+background-repeat: no-repeat;
+  }
+  footer .img-footer .img-text button{
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 768px) {
-    .img-content img,
-    .img-services img {
-      width: 100%;
-      height: auto;
-      object-fit: contain; /* or object-fit: contain; */
-    }
+  .container-header .row .nav-items,
+  .login-btns {
+   display: none;
+  }
+  .text-context {
+    text-align: left; /* Adjust text alignment as needed */
+    padding: 0 50px;
+  }
+
+  .Feature-container .cards .card {
+    width: 350px;
+    margin: 20px;
+  }
 }
 
-@media only screen and (min-width: 992px) {
-    .text-context {
-        text-align: left;
-        padding: 0px 50px;
-      }
-      .img-content img,
-      .img-services img {
-        width: 100%;
-        height: auto;
-        object-fit: contain; /* or object-fit: contain; */
-      }
-      .Feature-container .cards .card {
-        width: 350px;
-        margin: 10px;
-      }
-     
-}
-
-@media only screen and (min-width: 1200px) {
- .text-context {
-        text-align: left;
-        padding: 0px 50px;
-      }
+@media only screen and (max-width: 1200px) {
+  .text-context {
+    padding: 0 50px;
+  }
 }

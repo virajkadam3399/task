@@ -1,21 +1,26 @@
 .home-container {
-    box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    padding: 30px 114px !important;
     align-items: center;
-    height: 100vh;
+    gap: 84px;
+    box-sizing: border-box  ;
+    align-self: stretch;
+    background-color: rgba(245, 247, 250, 1);
 }
 .home-container .row{
     display: flex;
+    justify-content: space-between;
+    gap: 240px;
+    align-self: center;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
 }
+
 .home-container .row .text-content{
-    
+
 }
 .home-container .row .text-content h1{
-    font-size: 56px;
+    font-size: 50px;
     letter-spacing: 2px;
     font-weight: bold;
 }
@@ -37,6 +42,9 @@ button{
     margin: 10px 0;
 }
 .img-content img{
-    width: 100%;
-    object-fit: contain;
+  width: 100%;
+}
+.img-content {
+    width: 291px;
+    height: 367px;
 }

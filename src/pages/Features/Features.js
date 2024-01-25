@@ -1,6 +1,8 @@
 import React from "react";
 import "./Features.css";
 import '../../Responsive.css'
+import img1 from '../../imges/image 19.png'
+import img2 from '../../imges/image 20.png'
 
 const Features = () => {
   return (
@@ -11,9 +13,9 @@ const Features = () => {
             <h1>Caring is the new marketing</h1>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
-              nesciunt vel <br />
+              nesciunt vel
               impedit facere nemo, soluta dicta hic, corrupti sit illum corporis
-              ad <br /> illo quia consequatur quisquam ex voluptatibus minus
+              ad  illo quia consequatur quisquam ex voluptatibus minus
               doloribus?
             </p>
           </div>
@@ -21,7 +23,7 @@ const Features = () => {
           <div className="cards">
             <div className="card">
               <img
-                src="https://img.freepik.com/free-vector/tiny-graphic-designer-drawing-with-big-pen-computer-screen-creators-work-creative-woman-working-laptop-flat-vector-illustration-digital-design-concept-banner-landing-web-page_74855-25342.jpg"
+                src={img1}
                 alt="img"
               />
               <div className="card-text">
@@ -34,7 +36,7 @@ const Features = () => {
             </div>
             <div className="card">
               <img
-                src="https://img.freepik.com/free-vector/tiny-graphic-designer-drawing-with-big-pen-computer-screen-creators-work-creative-woman-working-laptop-flat-vector-illustration-digital-design-concept-banner-landing-web-page_74855-25342.jpg"
+                src={img2}
                 alt="img"
               />
               <div className="card-text">
@@ -47,7 +49,7 @@ const Features = () => {
             </div>
             <div className="card">
               <img
-                src="https://img.freepik.com/free-vector/tiny-graphic-designer-drawing-with-big-pen-computer-screen-creators-work-creative-woman-working-laptop-flat-vector-illustration-digital-design-concept-banner-landing-web-page_74855-25342.jpg"
+                src={img2}
                 alt="img"
               />
               <div className="card-text">

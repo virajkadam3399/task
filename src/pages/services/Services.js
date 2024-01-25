@@ -1,7 +1,8 @@
 import React from "react";
 import "./Services.css";
-
 import '../../Responsive.css'
+import img from '../../imges/rafiki.png'
+import pana from '../../imges/pana.png'
 
 const Services = () => {
   return (
@@ -11,7 +12,7 @@ const Services = () => {
         <div className="row-first">
           <div className="img-services">
             <img
-              src="https://img.freepik.com/free-vector/tiny-graphic-designer-drawing-with-big-pen-computer-screen-creators-work-creative-woman-working-laptop-flat-vector-illustration-digital-design-concept-banner-landing-web-page_74855-25342.jpg"
+              src={img}
               alt="service-img"
             />
 </div>
@@ -53,8 +54,7 @@ const Services = () => {
           </div>
           <div className="img-services">
             <img
-              src="https://img.freepik.com/free-vector/tiny-graphic-designer-drawing-with-big-pen-computer-screen-creators-work-creative-woman-working-laptop-flat-vector-illustration-digital-design-concept-banner-landing-web-page_74855-25342.jpg"
-              alt="service-img"
+              src={pana} alt="pana"
             />
           </div>
         </div>
