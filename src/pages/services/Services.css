@@ -2,14 +2,14 @@
     display: flex;
     width: 100%;
     padding: 0 10px;
-    justify-content: space-around; /* Adjust for better spacing */
+    justify-content: space-around; 
     align-items: center;
   }
   
   .services-container .section {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Adjust gap for better spacing */
+    gap: 20px; 
   }
   
   .services-container .row-first,
@@ -17,17 +17,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 20px; /* Adjust gap for better spacing */
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 20px; 
+    flex-wrap: wrap; 
   }
   
   .services-container .row-first .img-services,
   .services-container .row-second .img-services {
     display: flex;
     width: 100%;
-    max-width: 442px; /* Set a maximum width for better responsiveness */
+    max-width: 442px; 
     height: auto;
-    padding: 20px 0; /* Adjust padding for better spacing */
+    padding: 20px 0; 
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -36,16 +36,16 @@
   .text-context {
     display: flex;
     width: 100%;
-    max-width: 661px; /* Set a maximum width for better responsiveness */
+    max-width: 661px; 
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px; /* Adjust gap for better spacing */
+    gap: 20px; 
     flex-shrink: 0;
   }
   
   .text-context h1 {
     font-weight: bold;
-    font-size: 28px; /* Adjust font size for better readability */
+    font-size: 28px; 
   }
   
   .text-context p {
